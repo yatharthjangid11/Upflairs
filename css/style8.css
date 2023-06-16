@@ -41,7 +41,7 @@ body{
 }
 .contactImage{
     padding: 8px;
-    height: 2rem;  
+    height: 2rem;
     margin-right: 40px;
 }
 .menuItems{
@@ -97,3 +97,64 @@ a:hover{
     border-radius: 5px;
     filter:drop-shadow(5px 5px 3px grey);
 }
+
+
+/*services section*/
+.services{
+    margin: 5rem;
+}
+.servicetext{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.textsubheading{
+    color: var(--primaryAccentColor);
+    font-size: 1.25rem;
+    letter-spacing: 0.5 rem;
+    font-size: 1.25 rem;
+}
+
+.textheading{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Dancing Script,serif;
+}
+.servicecards{
+    margin-top: 30px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.servicecards:hover{
+    background-color: lightgrey;
+    width:fit-content;
+}
+
+
+.servicecard{
+    display: inline-block;
+    border: 1px solid black;
+    filter: drop-shadow(1px 1px 2px #aaaaaa);
+    margin: 50px;
+    padding: 50px;
+    border-radius: 2px;
+    width:auto;
+    margin: 2px 2px 2px 2px;
+    
+}
+
+.servicecard:hover{
+    background-color: aliceblue;
+    filter: drop-shadow(3px 3px 8px grey);
+}
+
+.serviceicon{
+    color: white;
+    background-color: var(--primaryAccentColor);
+    width: 55px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    border-radius: 0.5rem;
+}
+
